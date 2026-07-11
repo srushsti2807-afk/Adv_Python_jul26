@@ -11,7 +11,6 @@ class Dog:
     def bark(self):
         return f"{self.name} says woof! and it is {self.age} years old."
 
-
 # Create objects
 my_dog = Dog("Jerry", 3)
 my_dog2 = Dog("Perry", 5)
