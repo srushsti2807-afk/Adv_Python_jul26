@@ -6,7 +6,8 @@ class Dog:
     def __init__(self, name, age):
         self.name = name
         self.age = age
-    # Method - function that belongs to the class
+
+    # Method
     def bark(self):
         return f"{self.name} says woof! and it is {self.age} years old."
 
