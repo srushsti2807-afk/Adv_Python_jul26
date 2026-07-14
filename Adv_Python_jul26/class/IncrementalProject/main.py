@@ -1,5 +1,5 @@
 from models.product import Product
-from registery.registery import ProductRegistry
+from Registry.registry import ProductRegistry
 
 # Create products
 laptop = Product("Laptop", 55000, 10)
@@ -15,4 +15,5 @@ keyboard.display_details()
 
 # Display automatically registered product classes
 ProductRegistry.display_registered_products()
+
 
