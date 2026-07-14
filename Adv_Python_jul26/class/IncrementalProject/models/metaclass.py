@@ -1,5 +1,5 @@
 from abc import ABCMeta
-from Registery.registery import ProductRegistry
+from Registry.registry import ProductRegistry
 
 
 class ProductMeta(ABCMeta):
