@@ -1,4 +1,4 @@
-class Book:Library book management system
+class Book:
     def __init__(self, book_id, title, author, total_copies):
         self.book_id = book_id
         self.title = title
